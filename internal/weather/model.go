@@ -45,9 +45,9 @@ type Weather struct {
 		Uv         float64 `json:"uv"`
 		GustMph    float64 `json:"gust_mph"`
 		GustKph    float64 `json:"gust_kph"`
-		ShortRad   int     `json:"short_rad"`
-		DiffRad    int     `json:"diff_rad"`
-		Dni        int     `json:"dni"`
-		Gti        int     `json:"gti"`
+		ShortRad   float64 `json:"short_rad"`
+		DiffRad    float64 `json:"diff_rad"`
+		Dni        float64 `json:"dni"`
+		Gti        float64 `json:"gti"`
 	} `json:"current"`
 }
